@@ -1,4 +1,4 @@
-# MERN Todo App
+# Todo App
 
 The **MERN Todo App** is a full-stack web application designed to help users effectively manage their todo lists. This project demonstrates the integration of React (frontend) and Express (backend) in a single application. Users can create, update, and delete tasks easily, with a sleek and responsive interface that includes dark mode for a comfortable user experience.
 
@@ -67,20 +67,3 @@ To run the frontend, navigate to the client folder and start the development ser
    npm start
 The frontend will be available at:
 http://localhost:5173
-
-### Project Structure
-todo/
-├── server/        # Express.js backend
-│   ├── index.js   # Entry point for the backend
-│   ├── routes/    # API routes
-│   └── middleware/ # Middleware for handling requests
-├── client/        # React frontend
-│   ├── src/       # React source files
-│   │   ├── components/  # Reusable UI components
-│   │   ├── pages/       # Page-level components
-│   │   └── App.js       # Main app component
-│   └── public/    # Static assets
-└── README.md      # Project documentation
-
-
-
