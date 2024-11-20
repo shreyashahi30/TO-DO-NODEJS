@@ -45,3 +45,42 @@ Before you begin, ensure you have the following installed on your machine:
    ```bash
    git clone https://github.com/codescalper/mern-todo.git
    cd mern-todo
+2. **Install Dependencies**
+Navigate to the server folder and install its dependencies:
+cd server
+npm install
+Then, navigate to the client folder and install its dependencies:
+cd ../client
+npm install
+
+### Usage
+1. **Start the Server**
+To run the backend, navigate to the server folder and start the server:
+   cd server
+   npm start
+The backend will be available at:
+http://localhost:3000
+
+2. **Start the Client**
+To run the frontend, navigate to the client folder and start the development server:
+   cd ../client
+   npm start
+The frontend will be available at:
+http://localhost:5173
+
+### Project Structure
+todo/
+├── server/        # Express.js backend
+│   ├── index.js   # Entry point for the backend
+│   ├── routes/    # API routes
+│   └── middleware/ # Middleware for handling requests
+├── client/        # React frontend
+│   ├── src/       # React source files
+│   │   ├── components/  # Reusable UI components
+│   │   ├── pages/       # Page-level components
+│   │   └── App.js       # Main app component
+│   └── public/    # Static assets
+└── README.md      # Project documentation
+
+
+
